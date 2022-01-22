@@ -1,0 +1,13 @@
+{
+  "name": "Morgan_E_NGO_Team",
+  "version": "1.0.0",
+  "description": "First Node App",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "Emily",
+  "license": "ISC"
+}
