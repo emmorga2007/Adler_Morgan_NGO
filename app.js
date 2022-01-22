@@ -2,8 +2,7 @@
 
 import { createServer } from 'http';
 
-const hostname = '127.0.0.1';
-const port = 3000;
+const port = process.env.PORT || 3000;
 //this is the address of the web app running on you localhost
 
 const server = createServer((req, res) => {
@@ -14,7 +13,7 @@ const server = createServer((req, res) => {
 //this creates a server, writes a status code and writes some content. 
 
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+server.listen(port, () => {
+  console.log(`Server running at ${port}/`);
 });
 //this is the minimum that you need to write a running node app
