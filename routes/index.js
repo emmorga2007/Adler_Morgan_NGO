@@ -18,14 +18,19 @@ router.get('/', (req, res) => {
 })
 //this will grab the file from views/index.html
 
-router.get('/Emily', (req,res) => {
-    res.send(`This is joes page!`)
-    //res.sendFile(path.join(__dirname, '../views/Emily.html'));
+router.get('/Emily.html', (req,res) => {
+    //res.send(`This is joes page!`)
+    res.sendFile(path.join(__dirname, '../views/Emily.html'));
 })
 
-router.get('/Natasha', (req,res) => {
-    res.send(`This is johns page!`)
-    //res.sendFile(path.join(__dirname, '../views/Natasha.html'));
+router.get('/Natasha.html', (req,res) => {
+    //res.send(`This is johns page!`)
+    res.sendFile(path.join(__dirname, '../views/Natasha.html'));
+})
+
+router.get('/index.html', (req,res) => {
+    //res.send(`This is johns page!`)
+    res.sendFile(path.join(__dirname, '../views/index.html'));
 })
 
 // very last router is your error handler - requests for resources that dont exist. example /popcorn has no route
@@ -33,5 +38,7 @@ router.use((req, res) =>{
     console.log('page does not exist');
     res.sendFile(path.join(__dirname, '../views/404.html'));
 }) 
+
+
 
 export default router;
