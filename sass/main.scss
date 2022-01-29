@@ -1,0 +1,51 @@
+//Imports
+
+@import "modules/variables";
+@import "modules/header";
+@import "modules/home";
+@import "modules/portfolio";
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    box-sizing: border-box;
+}
+
+body{
+    font-size: $p-font-weight;
+    background-color: $body-color;
+
+}
+
+p{
+    color:$font-color;
+    font-weight: $p-font-weight;
+}
+
+h2{
+    color: $accent-color;
+    font-weight: $h2-font-weight;
+}
+h3{
+
+    font-weight: $h3-font-weight;
+    color: $accent-color;
+}
+h4{
+    font-weight: $h4-font-weight;
+    color: $sub-color;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hidden { display: none;}
+
+body {
+    
+}
+
