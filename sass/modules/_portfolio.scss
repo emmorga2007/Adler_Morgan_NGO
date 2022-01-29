@@ -1,13 +1,17 @@
-
+.ProfileContainer{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .paragraph{
     padding: 1rem 10rem;
-
     h4{
         padding: 1rem 0rem;
     }
 }
-
 
 .buttons{
     padding: 4rem;

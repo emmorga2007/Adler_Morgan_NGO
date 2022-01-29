@@ -5,7 +5,8 @@
 @import "modules/button";
 @import "modules/home";
 @import "modules/portfolio";
-  
+
+// command : sass --watch sass:public/css --style compressed
 
 *{
     margin: 0;
@@ -47,7 +48,4 @@ a{
 
 .hidden { display: none;}
 
-body {
-    
-}
 
