@@ -2,6 +2,7 @@
 
 @import "modules/variables";
 @import "modules/header";
+@import "modules/button";
 @import "modules/home";
 @import "modules/portfolio";
   
@@ -17,6 +18,7 @@
 body{
     font-size: $p-font-weight;
     background-color: $body-color;
+    font-family: $main-font;
 
 }
 
@@ -27,15 +29,15 @@ p{
 
 h2{
     color: $accent-color;
-    font-weight: $h2-font-weight;
+    font-size: $h2-font-weight;
 }
 h3{
 
-    font-weight: $h3-font-weight;
+    font-size: $h3-font-weight;
     color: $accent-color;
 }
 h4{
-    font-weight: $h4-font-weight;
+    font-size: $h4-font-weight;
     color: $sub-color;
 }
 
